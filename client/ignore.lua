@@ -123,3 +123,13 @@ CreateThread(function()
         Wait(5)
     end
 end)
+
+
+
+CreateThread(function()
+    while Config.RemoveGTARadio do
+        Citizen.Wait(0)
+        local vehicle = GetVehiclePedIsIn(GetPlayerPed(-1), false)
+        SetVehicleRadioEnabled(vehicle, false)
+    end
+end) -- Disables the default GTA radio
