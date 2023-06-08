@@ -48,6 +48,7 @@ Config.DispatchServices = {
 
 -- Enable or disable the wanted level
 Config.EnableWantedLevel = false
+Config.RemoveGTARadio = true  -- Disables the default GTA radio
 
 -- To Set This Up visit https://forum.cfx.re/t/how-to-updated-discord-rich-presence-custom-image/157686
 Config.Discord = {
